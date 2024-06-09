@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.left-panel, .right-panel {
+    padding: 20px;
+}
+
+.left-panel {
+    background: rgba(255, 255, 255, 0.1);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.left-panel .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.left-panel h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.left-panel p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+}
+
+.left-panel .get-started {
+    padding: 10px 20px;
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.right-panel {
+    background: white;
+    flex: 1.5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-panel form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.right-panel h2 {
+    color: #ff1493;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.right-panel input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.right-panel .terms {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.right-panel .terms input {
+    margin-right: 10px;
+}
+
+.right-panel .terms a {
+    color: #ff1493;
+    text-decoration: none;
+}
+
+.right-panel .sign-up {
+    padding: 10px 20px;
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.right-panel p {
+    margin-top: 20px;
+}
+
+.right-panel p a {
+    color: #ff1493;
+    text-decoration: none;
+}

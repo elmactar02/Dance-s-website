@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asso Danse - Inscription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="logo">
+                <img src="asso-dance.png" alt="Asso Danse Logo">
+            </div>
+            <h1>Asso Danse</h1>
+            <p>Prêt à faire vibrer votre corps au rythme de la musique ? Rejoignez-nous dans notre salle de danse où la passion et l'énergie sont au rendez-vous ! Avec nos instructeurs talentueux et notre ambiance chaleureuse, chaque pas devient une expérience inoubliable. Que vous soyez débutant ou danseur chevronné, venez découvrir la magie de la danse avec nous. Inscrivez-vous dès maintenant et laissez-vous emporter par la musique !</p>
+            <button class="get-started">GET STARTED</button>
+        </div>
+        <div class="right-panel">
+            <form action="register.php" method="post">
+                <h2>Créez votre compte. C'est gratuit et ne prend qu'une minute.</h2>
+                <input type="text" name="first_name" placeholder="Prénom" required>
+                <input type="text" name="last_name" placeholder="Nom" required>
+                <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Mot de passe" required>
+                <input type="password" name="confirm_password" placeholder="Confirmez le mot de passe" required>
+                <div class="terms">
+                    <input type="checkbox" name="terms" required> J'accepte les <a href="#">Termes d'utilisation</a> et la <a href="#">Politique de confidentialité</a>
+                </div>
+                <button type="submit" name="signup" class="sign-up">S'INSCRIRE</button>
+                <p>Déjà membre? <a href="#">Se connecter</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
