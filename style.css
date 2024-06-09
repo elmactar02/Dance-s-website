@@ -1,0 +1,475 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+body#loginBody{
+	background: url('../img/log.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+body{
+	font-family: arial;
+}
+
+div.loginHeader{
+	margin-bottom: 60px;
+}
+
+div.loginHeader{
+	text-align: center;
+}
+
+div.loginHeader h1{
+	font-size: 100px;
+	color: #f685a2;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.loginHeader p{
+	color: #darkred;
+	font-size: 50px;
+	margin: 0px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+div.loginHeader p:after{
+	content: '';
+	display: block;
+	height: 5px;
+	background: #f685a2;
+	margin: 0 auto;	
+}
+
+div.loginBody form{
+	margin: 0 auto;
+	width: 450px;
+	background: rgba(0, 0, 0, .5);
+	padding: 50px;
+	border: 2px solid #fff;
+	border-radius: 8px;
+}
+
+div.loginInputsContainer{
+	margin-top: 30px;
+}
+
+div.loginInputsContainer label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.loginInputsContainer input{
+	height: 30px;
+	width: 100%;
+	border: 2px solid #d40339;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	font-style: italic;
+}
+
+div.loginButtonContainer{
+	margin-top: 40px;
+	text-align: center;
+}
+
+div.loginButtonContainer button{
+	font-size: 20px;
+	padding: 10px 40px;
+	background: #f685a2;
+	border: none;
+	color: #fff;
+}
+
+div.header{
+	width: 100%;
+	background: #d35400;
+	padding: 10px 0px;
+	text-align: right;
+}
+
+div.header a{
+	font-size: 20px;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	border: 2px solid transparent;
+	border-bottom: 2px solid #fff;
+}
+
+div.header a:hover{
+	border-radius: 5px;
+	border: 2px solid #fff;
+}
+
+/* IMS Homepage */
+
+div.banner{
+	background: url('../img/banner.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 80vh;
+}
+
+.signupButton .loginButton {
+    padding: 10px 20px;
+    background-color: #5cb85c; /* Choisissez une couleur qui correspond à votre design */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 15px; /* Ajustez selon votre layout */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.signupButton:hover {
+    background-color: #4cae4c; /* Une teinte légèrement plus foncée pour l'effet hover */
+}
+
+.loginButton:hover{
+    background-color: #4cae4c; /* Une teinte légèrement plus foncée pour l'effet hover */
+	
+}
+
+div.homepageContainer{
+	width: 100%;
+	max-width: 1000px;
+	/* height: 70vh; */
+	margin: 0 auto;
+}
+
+div.bannerHeader h1{
+	font-size: 100px;
+	color: #D7DBDD;
+	line-height: 100%;
+}
+
+div.bannerHeader p{
+	font-size: 40px;
+	color: #D7DBDD;
+	text-transform: uppercase;
+	line-height: 100%;
+}
+
+p.bannerTagline{
+	margin-top: 20px;
+	font-size: 25px;
+	color: #fff;
+}
+
+div.bannerIcons{
+	margin-top: 150px;
+}
+
+div.bannerIcons a{
+	font-size: 23px;
+	margin-left: 40px;
+	padding: 7px 15px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #515A5A;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+div.bannerIcons a:first-child{
+	margin-left: 0px;
+}
+
+div.bannerIcons a:hover{
+	color: #fff;
+	font-size: 25px;
+	background: #f685a1;
+	transition: .5s all;
+}
+
+p.featureDescription{
+	text-align: justify;
+}
+
+div.homepageFeatures{
+	display: flex;
+	flex-direction: row;
+	padding: 50px 0px;
+}
+
+div.homepageFeature{
+	padding: 10px 20px;
+	text-align: center;
+}
+
+div.homepageFeature:hover{
+	border-top: 2px solid #2874A6;
+	border-bottom: 2px solid #2874A6;
+	border-left: 2px solid #2874A6;
+	border-right: 2px solid #2874A6;
+	transition: 0.1s all;
+}
+
+div.homepageFeature span.featureIcon{
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	font-size: 50px;
+	background: #f685a1;
+	color: #fff;
+	/* padding-left: 18px; */
+	padding-top: 5px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+div.homepageFeature h3.featureTitle{
+	margin-bottom: 20px;
+	font-size: 23px;
+}
+
+div.homepageFeature p.featureDescription{
+	color: #848484;
+	font-size: 15px;
+}
+
+div.homepageNotified{
+	background: #e3e3e3;
+	padding: 50px 0px;
+}
+
+div.homepageNotifiedContainer{	
+	display: flex;
+	flex-direction: row;
+}
+
+div.emailForm h3{
+	font-size: 23px;
+}
+
+div.emailForm{
+	width: 50%;
+}
+
+div.video{
+	width: 60%;
+	text-align: center;
+}
+
+div.homepageNotified h3{
+	margin-bottom: 20px;
+}
+
+div.homepageNotified p{
+	color: #848484;
+	line-height: 150%;
+	margin-bottom: 30px;
+}
+
+div.formContainer{
+	width: 80%;
+	position: relative;
+}
+
+div.formContainer input{
+	width: 100%;
+	padding: 15px 10px;	
+	border-radius: 15px;
+	border: none;
+}
+
+div.formContainer input:focus{
+	outline: none;
+}
+
+div.formContainer button{	
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	font-size: 22px;
+	padding: 0px 10px;
+	background: #7d3c98;
+	border: none;
+	color: #fff;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px
+}
+
+.video{
+	width: 80%;
+	height: 100%;
+}
+
+div.socials{
+	text-align: center;
+	padding: 70px 0px 40px 0px;
+}
+
+h3.sociaHeader{
+	font-size: 30px;
+}
+
+p.socialText{
+	margin-top: 20px;
+	margin-bottom: 25px;
+	color: #848484;
+}
+
+div.socialIconContainer a{
+	font-size: 23px;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: #d4d4d4;
+	color: #fff;
+	border-radius: 50px;
+	padding-top: 7px;
+}
+
+div.socialIconContainer a:hover{
+	background: #f685a1;
+	transition: 0.2s all;
+}
+
+div.footer{
+	text-align: center;
+	background: #e3e3e3;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+div.footer a{
+	color: #848484;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+div.footer a:hover{
+	font-weight: bold;
+	color: #f8a4b9;
+	transition: 0.5s all;
+}
+
+/* Dashboard */
+
+/* Réinitialisation des styles par défaut pour assurer la cohérence sur tous les navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Fait en sorte que padding et border ne dépassent pas les dimensions définies */
+}
+
+/* Styles du tableau de bord */
+#dashboardMainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* S'assure que les enfants du flex container s'étendent verticalement */
+    height: auto; /* Utilisez la hauteur de la fenêtre pour le conteneur principal */
+}
+
+div.dashboard_sidebar {
+    width: 20%;
+    background: #323232;
+    height: auto; /* La hauteur est basée sur celle du conteneur principal */
+}
+
+div.dashboard_content_container {
+    width: 80%;
+    background: #f4f6f9;
+    height: 100%; /* La hauteur est basée sur celle du conteneur principal */
+}
+
+h3.dashboard_logo {
+    color: #2471A3;
+    font-size: 80px;
+    text-align: center;
+    padding: 10px 0; /* Ajoutez un padding pour l'espacement */
+}
+
+div.dashboard_sidebar_user {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+div.dashboard_sidebar_user img {
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #2471A3;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+div.dashboard_sidebar_user span {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    top: 20%;
+}
+
+ul.dashboard_menus_lists {
+    list-style-type: none; /* Enlève les puces de liste */
+    margin-top: 20px;
+}
+
+ul.dashboard_menus_lists li {
+    padding: 15px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+ul.dashboard_menus_lists li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+}
+
+ul.dashboard_menus_lists li a i {
+    margin-right: 10px;
+}
+
+ul.dashboard_menus_lists li.menuActive, ul.dashboard_menus_lists li:hover {
+    background: #2471A3;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+div.dashboard_topNav {
+    background: #fff;
+    padding: 20px;r    
+}
+
+div.dashboard_topNav a {
+    color: #2471A3;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+a#logoutBtn {
+    float: right;
+    background: #2471A3;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+div.dashboard_content {
+    padding: 50px 10px 10px 10px; /* Ajustez la valeur du padding si nécessaire */
+}
+
+div.dashboard_content_main {
+    background: #fff;
+    min-height: 800px;
+    height: 100%; 
+}
+
+
+
+
+

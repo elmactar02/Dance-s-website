@@ -1,0 +1,117 @@
+/* Dashboard */
+
+/* Réinitialisation des styles par défaut pour assurer la cohérence sur tous les navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Fait en sorte que padding et border ne dépassent pas les dimensions définies */
+}
+
+/* Styles du tableau de bord */
+#dashboardMainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* S'assure que les enfants du flex container s'étendent verticalement */
+    height: auto; /* Utilisez la hauteur de la fenêtre pour le conteneur principal */
+}
+
+div.dashboard_sidebar {
+    width: 20%;
+    background: #323232;
+    height: auto; /* La hauteur est basée sur celle du conteneur principal */
+}
+
+div.dashboard_content_container {
+    width: 80%;
+    background: #f4f6f9;
+    height: 100%; /* La hauteur est basée sur celle du conteneur principal */
+}
+
+h3.dashboard_logo {
+    color: #2471A3;
+    font-size: 80px;
+    text-align: center;
+    padding: 10px 0; /* Ajoutez un padding pour l'espacement */
+}
+
+div.dashboard_sidebar_user {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+div.dashboard_sidebar_user img {
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #2471A3;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+div.dashboard_sidebar_user span {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    top: 20%;
+}
+
+ul.dashboard_menus_lists {
+    list-style-type: none; /* Enlève les puces de liste */
+    margin-top: 20px;
+}
+
+ul.dashboard_menus_lists li {
+    padding: 15px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+ul.dashboard_menus_lists li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+}
+
+ul.dashboard_menus_lists li a i {
+    margin-right: 10px;
+}
+
+ul.dashboard_menus_lists li.menuActive, ul.dashboard_menus_lists li:hover {
+    background: #2471A3;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+div.dashboard_topNav {
+    background: #fff;
+    padding: 20px;r    
+}
+
+div.dashboard_topNav a {
+    color: #2471A3;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+a#logoutBtn {
+    float: right;
+    background: #2471A3;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+div.dashboard_content {
+    padding: 50px 10px 10px 10px; /* Ajustez la valeur du padding si nécessaire */
+}
+
+div.dashboard_content_main {
+    background: #fff;
+    min-height: 800px;
+    height: 100%; 
+}

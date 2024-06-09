@@ -1,0 +1,245 @@
+/* IMS Homepage */
+
+div.banner{
+	background: url('../img/banner.jpg') no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 80vh;
+}
+
+.signupButton .loginButton {
+    padding: 10px 20px;
+    background-color: #5cb85c; /* Choisissez une couleur qui correspond à votre design */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 15px; /* Ajustez selon votre layout */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.signupButton:hover {
+    background-color: #4cae4c; /* Une teinte légèrement plus foncée pour l'effet hover */
+}
+
+.loginButton:hover{
+    background-color: #4cae4c; /* Une teinte légèrement plus foncée pour l'effet hover */
+	
+}
+
+div.homepageContainer{
+	width: 100%;
+	max-width: 1000px;
+	/* height: 70vh; */
+	margin: 0 auto;
+}
+
+div.bannerHeader h1{
+	font-size: 100px;
+	color: #D7DBDD;
+	line-height: 100%;
+}
+
+div.bannerHeader p{
+	font-size: 40px;
+	color: #D7DBDD;
+	text-transform: uppercase;
+	line-height: 100%;
+}
+
+p.bannerTagline{
+	margin-top: 20px;
+	font-size: 25px;
+	color: #fff;
+}
+
+div.bannerIcons{
+	margin-top: 150px;
+}
+
+div.bannerIcons a{
+	font-size: 23px;
+	margin-left: 40px;
+	padding: 7px 15px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #515A5A;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+div.bannerIcons a:first-child{
+	margin-left: 0px;
+}
+
+div.bannerIcons a:hover{
+	color: #fff;
+	font-size: 25px;
+	background: #f685a1;
+	transition: .5s all;
+}
+
+p.featureDescription{
+	text-align: justify;
+}
+
+div.homepageFeatures{
+	display: flex;
+	flex-direction: row;
+	padding: 50px 0px;
+}
+
+div.homepageFeature{
+	padding: 10px 20px;
+	text-align: center;
+}
+
+div.homepageFeature:hover{
+	border-top: 2px solid #2874A6;
+	border-bottom: 2px solid #2874A6;
+	border-left: 2px solid #2874A6;
+	border-right: 2px solid #2874A6;
+	transition: 0.1s all;
+}
+
+div.homepageFeature span.featureIcon{
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	font-size: 50px;
+	background: #f685a1;
+	color: #fff;
+	/* padding-left: 18px; */
+	padding-top: 5px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+div.homepageFeature h3.featureTitle{
+	margin-bottom: 20px;
+	font-size: 23px;
+}
+
+div.homepageFeature p.featureDescription{
+	color: #848484;
+	font-size: 15px;
+}
+
+div.homepageNotified{
+	background: #e3e3e3;
+	padding: 50px 0px;
+}
+
+div.homepageNotifiedContainer{	
+	display: flex;
+	flex-direction: row;
+}
+
+div.emailForm h3{
+	font-size: 23px;
+}
+
+div.emailForm{
+	width: 50%;
+}
+
+div.video{
+	width: 60%;
+	text-align: center;
+}
+
+div.homepageNotified h3{
+	margin-bottom: 20px;
+}
+
+div.homepageNotified p{
+	color: #848484;
+	line-height: 150%;
+	margin-bottom: 30px;
+}
+
+div.formContainer{
+	width: 80%;
+	position: relative;
+}
+
+div.formContainer input{
+	width: 100%;
+	padding: 15px 10px;	
+	border-radius: 15px;
+	border: none;
+}
+
+div.formContainer input:focus{
+	outline: none;
+}
+
+div.formContainer button{	
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	font-size: 22px;
+	padding: 0px 10px;
+	background: #7d3c98;
+	border: none;
+	color: #fff;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px
+}
+
+.video{
+	width: 80%;
+	height: 100%;
+}
+
+div.socials{
+	text-align: center;
+	padding: 70px 0px 40px 0px;
+}
+
+h3.sociaHeader{
+	font-size: 30px;
+}
+
+p.socialText{
+	margin-top: 20px;
+	margin-bottom: 25px;
+	color: #848484;
+}
+
+div.socialIconContainer a{
+	font-size: 23px;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: #d4d4d4;
+	color: #fff;
+	border-radius: 50px;
+	padding-top: 7px;
+}
+
+div.socialIconContainer a:hover{
+	background: #f685a1;
+	transition: 0.2s all;
+}
+
+div.footer{
+	text-align: center;
+	background: #e3e3e3;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+div.footer a{
+	color: #848484;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+div.footer a:hover{
+	font-weight: bold;
+	color: #f8a4b9;
+	transition: 0.5s all;
+}
